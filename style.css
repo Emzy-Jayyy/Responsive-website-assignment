@@ -41,7 +41,7 @@ img{
 
 /* tablet view*/
 @media (min-width:768px){
-    font-size: 16pt;
+   /* font-size: 16pt;*/
   
     img{
     height:250px;
@@ -75,7 +75,7 @@ img{
 /* desktop */
 @media (min-width:1024px){
   
-    font-size: 17px;
+   /* font-size: 17px*/
   
     img{
     height:250px;
