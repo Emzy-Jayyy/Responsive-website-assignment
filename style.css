@@ -31,16 +31,19 @@ img{
   width:350px ;
   background-color: darkblue;
   color: white;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
   border-radius: 5px;
   margin-block: 5px;
 }
 
 /* tablet view*/
-@media (min-width:768px){
+@media screen and (min-width:768px){
    /* font-size: 16pt;*/
   
   header{
@@ -80,7 +83,7 @@ img{
 
 
 /* desktop */
-@media (min-width:1024px){
+@media screen and (min-width:1024px){
   
    /* font-size: 17px*/
   
@@ -112,8 +115,7 @@ img{
     .box:nth-child(7) { grid-area: seven; background-color: olive; }
     .box:nth-child(8) { grid-area: eight; background-color: teal; }
     .box:nth-child(9) { grid-area: nine; background-color: red; }
-}
-  
+
     .box{
     height:550px ;
     width:100%px ;
